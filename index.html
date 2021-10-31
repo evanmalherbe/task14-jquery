@@ -1,0 +1,95 @@
+<!-- Task 14 - Compulsory task - Intro to jQuery -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include external stylesheet-->
+    <link rel='stylesheet' type='text/css' href='css/styles.css' />
+    <!--Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+    <!-- Include external Javascript file - script.js -->
+    <script src="script.js"></script>
+    <title>Task 14 - Compulsory task</title>
+</head>
+
+<body>
+    <!-- main container for whole page -->
+    <div class="wholePage">
+        <h1 class="mainHeading"> Let's learn about jQuery</h1>
+        <p style="color:red">Click the button below to make any other element on the page fade when you click it
+            (everything is safe, until you activate this feature!)
+        </p>
+        <!-- Clicking the button below makes all the elements on the page fade when clicked on. Nothing will happen
+        to the elements when clicked until this button is activated though. -->
+        <button type="button" class="makeElementsFade">Click to fade anything</button>
+
+        <!-- Click button below to start several fun animations on the page -->
+        <p>When you click the button below, you will start some interesting animation effects.</p>
+        <button type="button" class="startAnimation">Click to animate</button>
+
+        <h2>It sounds difficult, but I think it's possible</h2>
+        <p class="firstPara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+        </p>
+
+        <img class="grapePic" src="images/grapes.jpg" alt="grapes">
+        <img class="strawbPic" src="images/strawberry.jpg" alt="strawberry">
+
+        <br>
+
+        <!-- Click first button to fade out grape photo above. Second button, fades it back in and the third button
+        will stop either of the first 2 fades when clicked. -->
+        <button type="button" class="fadeOutButton">Click to fade out image</button>
+        <button type="button" class="fadeInButton">Click to fade in image</button>
+        <button type="button" class="stopFade">Click to STOP fade</button>
+
+        <h3>This is another paragraph</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+        </p>
+
+        <!-- Div container for accordion menu. This menu expands each content section when you hover the mouse over
+         the heading for that section. See script file for more details. -->
+        <div class="accordionMenu">
+            <h3 class="menuHeading1">Menu item 1</h3>
+            <div class="content1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <h3 class="menuHeading2">Menu item 2</h3>
+            <div class="content2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <h3 class="menuHeading3">Menu item 3</h3>
+            <div class="content3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <!-- div for accordion menu ends -->
+        </div>
+
+        <!-- Main container div for whole page ends-->
+    </div>
+
+</body>
+
+</html>
